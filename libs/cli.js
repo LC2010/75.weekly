@@ -67,7 +67,7 @@ function startUp() {
         if (err) return consoler.error(err);
         sendMessageForWeekly(result, function (err, ret) {
             if (err) return consoler.error(err);
-            consoler.success('感谢您的投稿，' + ret.author + '。您的文章已经投递成功，文章标题为：' + ret.title);
+            consoler.success('感谢您的投稿，' + ret.provider + '。您的文章已经投递成功，文章标题为：' + ret.title);
             console.log([
                 "",
                 "如果不继续投稿请按^C退出命令行"
