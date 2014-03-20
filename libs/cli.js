@@ -51,7 +51,6 @@ function sendMessageForWeekly(info, callback) {
         json: info
     }, function(err, ret) {
         var result = ret.body;
-        console.log(result);
         if (result.errno == 0) return callback(null, info);
         return callback(result.errmsg);
     });
