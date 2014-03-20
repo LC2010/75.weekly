@@ -1,0 +1,35 @@
+{
+  "name": "75.weekly",
+  "version": "0.0.1",
+  "description": "command-tool for 75weekly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LC2010/75.weekly.git"
+  },
+  "bin": {
+    "core.75.weekly": "./bin/cli",
+    "75.weekly": "./bin/start.sh"
+  },
+  "dependencies": {
+    "beer": "0.0.8",
+    "prompt": "~0.2.12",
+    "consoler": "*"
+  },
+  "keywords": [
+    "cli",
+    "75weekly"
+  ],
+  "author": {
+    "name": "liangchao",
+    "email": "liangchaoyjs@163.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LC2010/75.weekly/issues"
+  },
+  "homepage": "https://github.com/LC2010/75.weekly"
+}
