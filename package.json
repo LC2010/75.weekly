@@ -1,6 +1,6 @@
 {
   "name": "75.weekly",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "command-tool for 75weekly",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "dependencies": {
     "beer": "0.0.8",
     "prompt": "~0.2.12",
-    "consoler": "*"
+    "consoler": "~0.0.8"
   },
   "keywords": [
     "cli",
